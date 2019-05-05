@@ -5,15 +5,160 @@ html { box-sizing: border-box; }
 
 /* -------------------------------------------------- */
 
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    display: flex;
 }
 
 h2 {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+
+.recept {
+    padding: 10px;
+}
+
+@media (min-width: 480px) {
+    .recept {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 860px) {
+    .recept {
+        padding: 20px;
+    }
+}
+
+
+.recept-kategorie {
+    float: left;
+    justify-content: flex-start;
+}
+
+.recept.komentare{
+    float: right;
+    justify-content: flex-end;
+}
+
+
+.recept-nazev {
+    font-weight: 800;
+    font-size: 18px;
+    align-items: flex-end;
+}
+
+@media (min-width: 480px) {
+    .recept-nazev {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 860px) {
+    .recept-nazev {
+        font-size: 28px;
+    }
+}
+
+.hlavni-recept {
+    background-image: url(images/burger.jpg);
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+@media (min-width: 480px) {
+    .hlavni-recept {
+        height: 250px;
+    }
+}
+
+@media (min-width: 860px) {
+    .hlavni-recept {
+        height: 400px;
+    }
+}
+
+.hlavni-recept h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+@media (min-width: 480px) {
+    .hlavni-recept h2 {
+        font-size: 36px;
+        
+    }
+}
+
+@media (min-width: 860px) {
+    .hlavni-recept h2 {
+        font-size: 48px;
+    }
+}
+
+
+
+
+.recept2 {
+    background-image: url(images/sushi.jpg);
+    width: 400px;
+    height: 90px;
+}
+
+.recept3 {
+    background-image: url(images/rajcata.jpg);
+    width: 400px;
+    height: 90px;
+}
+
+.recept4 {
+    background-image: url(images/kure.jpg);
+    width: 400px;
+    height: 90px;
+}
+
+.recept5 {
+    background-image: url(images/grilovani.jpg);
+    width: 400px;
+    height: 90px;
+}
+
+@media (min-width: 480px) {
+    .recept {
+        height: 150px;
+    }
+}
+
+@media (min-width: 860px) {
+    .recept {
+        height: 200px;
+    }
+}
+
+.doporucujeme {
+    width: 400px;
+    height: auto;
+    background-size: contain;
+    display: block;
+}
+
+@media (min-width: 480px) {
+    .doporucujeme {
+    display: flex;
+    }
+}
+
+@media (min-width: 860px) {
+    .doporucujeme{
+    display: flex;
+    }
+}
+
 
 .paticka {
     text-align: center;
@@ -24,6 +169,22 @@ h2 {
 .paticka a {
     color: silver;
 }
+
+
+
+
+
+
+/* ------
+.doporucujeme:first-child {
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 200px;
+}
+---- */
+
+
+
 
 /* -------------------------------------------------- */
 

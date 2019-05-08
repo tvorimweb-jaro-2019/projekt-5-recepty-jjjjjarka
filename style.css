@@ -11,6 +11,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     display: flex;
+
 }
 
 h2 {
@@ -103,7 +104,6 @@ h2 {
 
 
 
-
 .recept2 {
     background-image: url(images/sushi.jpg);
     width: 400px;
@@ -131,6 +131,7 @@ h2 {
 @media (min-width: 480px) {
     .recept {
         height: 150px;
+       
     }
 }
 
@@ -141,7 +142,6 @@ h2 {
 }
 
 .doporucujeme {
-    width: 400px;
     height: auto;
     background-size: contain;
     display: block;
@@ -150,12 +150,18 @@ h2 {
 @media (min-width: 480px) {
     .doporucujeme {
     display: flex;
+    justify-content: space-between;
+   /* ----------------------
+ flex-direction: row;
+    flex-wrap: wrap;------------------------------ */
     }
 }
 
 @media (min-width: 860px) {
     .doporucujeme{
     display: flex;
+    justify-content: space-between;
+
     }
 }
 
@@ -171,6 +177,35 @@ h2 {
 }
 
 
+
+
+
+Z KURZU:    
+
+.hlavni-recept {
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.recept-meta {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.recept {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px white;
+
+}
 
 
 
